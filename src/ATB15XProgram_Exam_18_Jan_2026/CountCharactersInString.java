@@ -1,4 +1,4 @@
-package ATB15XProgram_Exam_16_Jan_2026;
+package ATB15XProgram_Exam_18_Jan_2026;
 import java.util.*;
 
 public class CountCharactersInString {
