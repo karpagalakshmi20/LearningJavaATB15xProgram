@@ -7,7 +7,12 @@ public class CountCharactersInString {
         System.out.println("Enter a new input String:");
         String s1 = sc.nextLine();
         char[] chars = s1.toCharArray();
-        int len = chars.length;
+        int len = 0;
+        for(int i=0; i<chars.length; i++){
+            if(chars[i] != ' '){
+                len++;
+            }
+        }
         System.out.println("The length of the String " + s1 + " is: " + len);
     }
 }
